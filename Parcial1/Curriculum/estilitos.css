@@ -1,0 +1,53 @@
+/*Hoja de estilos pa la tarea jsjs*/
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+img{
+    float: right;
+    inline-size: 15%;
+    padding-bottom: 20%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: large;
+}
+
+.centrar{
+    text-align: center;
+}
+
+h2{
+    font-weight: 500;
+    font-size:x-large;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    /*border: 1px solid red;*/
+    color: whitesmoke;
+    text-align: justify;
+}
+
+body{
+    background-color:darkslategray
+
+}
+
+p{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
