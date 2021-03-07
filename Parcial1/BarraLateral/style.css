@@ -44,17 +44,25 @@ body{
 }
 
 /*Tablet*/
-@media only screen and (max-width:768px){
+@media only screen and (max-width:800px){
 
    .menu li{
      float: left;
    }
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 
   .menu{
     top: 0;
+    width: 100%;
+  }
+  .menu li{
+    float: none;
+    
+  }
+  .contenido{
+    padding: 0 16px;
   }
 }
 
