@@ -1,23 +1,3 @@
-/*$(document).ready (function()
- {
-    $("#validar").click ( function()
-    {
-      var user=$('#user').val();
-      var pw=$('#pw').val();
-
-       if( user='usuario' && pw=='2021')
-       {
-            $('#myModal').modal('show');                                         
-       }
-       else 
-       {
-            $('.modal-body').html("Contraseña Incorrecta");
-            $('#myModal').modal('show');
-       }
-              
-    } );
-} ); */
-
 
 function validar()
 {
