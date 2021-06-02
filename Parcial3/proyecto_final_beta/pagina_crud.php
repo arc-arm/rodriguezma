@@ -31,14 +31,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-<h1>Bienvenido al sistema</h1>
+<h1>BIENVENID@</h1>
     <?php
     if (isset($_SESSION['usuario'])) {
-        echo 'Bienvenido al sistema, '.$_SESSION['usuario'];
+        echo 'Bienvenid@ al sistema, '.$_SESSION['usuario'].'!';
     }
     ?>
     <br>
-    <a href="cerrar_sesion.php">Cerrar sesión</a>
+    <a href="cerrar_sesion.php" class="btn btn-info">Cerrar sesión</a>
     <div class="container mt-5 ">
         <div class="row">
             <div class="col-md-12" >
