@@ -1,11 +1,17 @@
 <?php
-
+try {
     include "conexion.php";
-
-    $querySelect = "SELECT id_banco, razon_social, rfc, colonia, calle, numero_domicilio, telefono FROM CATALOGOBANCOS";
-    $ejecutarSelect =  $conexion -> prepare($querySelect);
-    $ejecutarSelect -> execute();
-    $selectBancos = $ejecutarSelect -> fetchAll(PDO::FETCH_ASSOC);
-    $ejecutarSelect -> closeCursor();
-    echo json_encode($selectBancos);
+    //utf por eso no me salia el script aaaaaaaaaaaaa
+    $conexion->query("SET NAMES 'UTF8'");
+    $consulta = $conexion->prepare("SELECT * FROM catalogobancos");
+    $consulta -> execute();
+    if (!$consulta) {
+        echo 'Error al ejecutar la consulta';
+    }else {
+        $resultado = $consulta->fetchAll(PDO::FETCH_ASSOC);
+        echo json_encode($resultado);
+    }
+} catch (PDOException $ex) {
+    echo $ex -> getMessage();
+}
 ?>
