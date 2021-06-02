@@ -5,7 +5,7 @@
 
     $usuario = $_POST["usuario"];
     $password = $_POST["password"];
-    $password = hash("sha512", $password);
+    $password = hash("sha512", $password); 
 
     $validarLogin = $conexion->prepare("SELECT * FROM USUARIO 
                                         WHERE user = '$usuario' AND password = '$password'");

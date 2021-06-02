@@ -4,7 +4,7 @@ USE rodriguezma;
 /*TABLA DE USUARIOS Nota: el tamaño de la contraseña 
 debe coincidir con el encriptado, en mi caso, 129*/
 
-CREATE TABLE IF NOT EXISTS Usuario 
+CREATE TABLE IF NOT EXISTS Usuario  
 (
     id_usuario TINYINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     user VARCHAR(20) NOT NULL,
