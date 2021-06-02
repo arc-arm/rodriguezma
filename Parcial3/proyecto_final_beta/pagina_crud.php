@@ -34,7 +34,7 @@
 <h1>BIENVENID@</h1>
     <?php
     if (isset($_SESSION['usuario'])) {
-        echo 'Bienvenid@ al sistema, '.$_SESSION['usuario'].'!';
+        echo '<h3>'.'Bienvenid@ al sistema, '.$_SESSION['usuario'].'!'.'</h3>';
     }
     ?>
     <br>
