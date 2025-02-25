@@ -1,5 +1,3 @@
-<h1 align="center">PROGRAMACIÓN WEB</h1>
-
 >#### Instituto Tecnológico de Nuevo Laredo
 ## Arcadio Rodríguez 
 ### Ingeniería En Sistemas Computacionales
